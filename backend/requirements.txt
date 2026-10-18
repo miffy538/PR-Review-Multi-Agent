@@ -1,0 +1,12 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+asyncpg>=0.29
+httpx>=0.27
+unidiff>=0.7
+pytest>=8.0
+# Phase 2 needed no new packages (Gemini is called over httpx).
+# Added in later phases:
+#   langgraph            (Phase 5)
+#   sentence-transformers, bandit, radon  (Phases 1-4)
